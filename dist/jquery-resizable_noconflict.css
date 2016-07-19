@@ -1,0 +1,59 @@
+/* horizontal panel*/
+.splitter_panel {
+  /* vertical panel */ }
+  .splitter_panel .panel-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid silver;
+    overflow: hidden;
+    /* avoid browser level touch actions */
+    xtouch-action: none; }
+  .splitter_panel .panel-left {
+    flex: 0 0 auto;
+    /* only manually resize */
+    padding: 10px;
+    width: 300px;
+    min-height: 200px;
+    min-width: 150px;
+    white-space: nowrap; }
+  .splitter_panel .splitter {
+    flex: 0 0 auto;
+    width: 18px;
+    background: url(../assets/vsizegrip.png) center center no-repeat #535353;
+    min-height: 200px;
+    cursor: col-resize; }
+  .splitter_panel .panel-right {
+    flex: 1 1 auto;
+    /* resizable */
+    padding: 10px;
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px; }
+  .splitter_panel .panel-container-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 1px solid silver;
+    overflow: hidden; }
+  .splitter_panel .panel-top {
+    flex: 0 0 auto;
+    /* only manually resize */
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    white-space: nowrap;
+    background: #838383;
+    color: white; }
+  .splitter_panel .splitter-horizontal {
+    flex: 0 0 auto;
+    height: 18px;
+    background: url(../assets/hsizegrip.png) center center no-repeat #535353;
+    cursor: row-resize; }
+  .splitter_panel .panel-bottom {
+    flex: 1 1 auto;
+    /* resizable */
+    padding: 10px;
+    min-height: 200px;
+    background: #eee; }
+
+/*# sourceMappingURL=jquery-resizable_noconflict.css.map */
