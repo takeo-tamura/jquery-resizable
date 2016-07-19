@@ -14,10 +14,10 @@
     "gulp-uglify": "^1.5.1"
   },
   "files": [
-  	"readme.md",
-  	"dist/",
-  	"src/",
-  	"assets/"
+    "readme.md",
+    "dist/",
+    "src/",
+    "assets/"
   ],
   "dependencies": {},
   "scripts": {
